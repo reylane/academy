@@ -10,7 +10,7 @@ with
             --PERSONTYPE
             --NAMESTYLE
             --TITLE
-            , FIRSTNAME || ' ' || MIDDLENAME || ' ' || LASTNAME as perdon_fullname
+            , FIRSTNAME || ' ' || MIDDLENAME || ' ' || LASTNAME as person_fullname
             --SUFFIX
             --EMAILPROMOTION
             --ADDITIONALCONTACTINFO

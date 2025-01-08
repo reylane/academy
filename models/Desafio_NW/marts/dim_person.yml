@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: dim_person
+    
+    columns:
+      - name: pk_personid
+        
+      - name: person_fullname
+        

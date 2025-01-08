@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: snowflake_desafioNW
+    database: FEA24_9
+    schema: RAW_ADVENTURE_WORKS
+    tables:
+      - name: person
+        data_tests:
+          - unique
+          - not_null

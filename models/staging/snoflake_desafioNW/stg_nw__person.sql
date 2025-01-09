@@ -3,14 +3,14 @@ with
         select * from {{ source('snowflake_desafioNW', 'person') }}
     )
 
-    , rename_person as (
+    , rename_table as (
         select 
             
-           cast(BUSINESSENTITYID as int) as pk_personid
+            cast(BUSINESSENTITYID as int) as pk_personid
+            , FIRSTNAME || ' ' || MIDDLENAME || ' ' || LASTNAME as person_fullname
             --PERSONTYPE
             --NAMESTYLE
             --TITLE
-            , FIRSTNAME || ' ' || MIDDLENAME || ' ' || LASTNAME as person_fullname
             --SUFFIX
             --EMAILPROMOTION
             --ADDITIONALCONTACTINFO
@@ -22,4 +22,4 @@ with
 
     )
 
-    select * from rename_person
+    select * from rename_table

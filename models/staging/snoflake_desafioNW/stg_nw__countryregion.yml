@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: stg_nw__countryregion
+
+    columns:
+      - name: PK_COUNTRYREGIONCODE
+
+      - name: COUNTRY_NAME

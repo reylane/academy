@@ -9,3 +9,19 @@ sources:
         data_tests:
           - unique
           - not_null
+
+      - name: address
+        data_tests:
+          - unique
+          - not_null
+     
+      - name: stateprovince
+        data_tests:
+          - unique
+          - not_null
+
+      - name: countryregion
+        data_tests:
+          - unique
+          - not_null
+          

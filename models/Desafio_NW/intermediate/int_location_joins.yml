@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: int_location_joins
+    
+    columns:
+      - name: PK_ADDRESSID
+
+      - name: CITY
+
+      - name: STATE_NAME
+
+      - name: COUNTRY_NAME

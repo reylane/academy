@@ -5,76 +5,102 @@ sources:
     database: FEA24_9
     schema: RAW_ADVENTURE_WORKS
     tables:
-      
-      - name: person
-        data_tests:
-          - unique
-          - not_null
+
+      - name: person      
+        columns:
+          - name: BUSINESSENTITYID
+            data_tests:
+              - unique
+              - not_null
 
       - name: address
-        data_tests:
+        columns:
+          - name: ADDRESSID
+            data_tests:
               - unique
               - not_null
      
       - name: stateprovince
-        data_tests:
-          - unique
-          - not_null
+        columns:
+          - name: STATEPROVINCEID
+            data_tests:
+              - unique
+              - not_null
 
       - name: countryregion
-        data_tests:
-          - unique
-          - not_null
+        columns:
+          - name: COUNTRYREGIONCODE
+            data_tests:
+              - unique
+              - not_null
       
       - name: CREDITCARD
-        data_tests:
-          - unique
-          - not_null
+        columns:
+          - name: CREDITCARDID
+            data_tests:
+              - unique
+              - not_null
 
 
       - name: CUSTOMER
-        data_tests:
-          - unique
-          - not_null
+        columns:
+          - name: CUSTOMERID
+            data_tests:
+              - unique
+              - not_null
 
       
       - name: PRODUCT
-        data_tests:
-          - unique
-          - not_null
+        columns:
+          - name: PRODUCTID
+            data_tests:
+              - unique
+              - not_null
          
       - name: PRODUCTCATEGORY
-        data_tests:
-          - unique
-          - not_null
+        columns:
+          - name: PRODUCTCATEGORYID
+            data_tests:
+              - unique
+              - not_null
       
       - name: PRODUCTSUBCATEGORY
-        data_tests:
-          - unique
-          - not_null
+        columns:
+          - name: PRODUCTSUBCATEGORYID
+            data_tests:
+              - unique
+              - not_null
       
           
       - name: SALESORDERDETAIL
-        data_tests:
-          - unique
-          - not_null
+        columns:
+          - name: SALESORDERID
+            data_tests:
+              - unique
+              - not_null
 
                 
       - name: SALESORDERHEADER
-        data_tests:
-          - unique
-          - not_null
+        columns:
+          - name: SALESORDERID
+            data_tests:
+              - unique
+              - not_null
                     
       - name: SALESORDERHEADERSALESREASON
-        data_tests:
-          - unique
-          - not_null
+        columns:
+          - name: SALESORDERID
+            data_tests:
+              - unique
+              - not_null
 
       
       - name: SALESREASON
-        data_tests:
-          - unique
-          - not_null
+        columns:
+          - name: SALESREASONID
+            data_tests:
+              - unique
+              - not_null
 
       - name: seed
 

@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: dim_payment
+   
+    columns:
+      - name: PK_CREDITCARDID
+        
+      - name: CARDTYPE
+       

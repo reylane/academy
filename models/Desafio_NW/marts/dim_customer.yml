@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: dim_customer
+   
+    columns:
+      - name: PK_CUSTOMERID
+        
+      - name: PK_PERSONID
+        
+      - name: FK_STOREID
+       
+      - name: FK_TERRITORYID
+        
+      - name: PERSON_FULL_NAME
+        

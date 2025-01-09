@@ -5,6 +5,7 @@ sources:
     database: FEA24_9
     schema: RAW_ADVENTURE_WORKS
     tables:
+      
       - name: person
         data_tests:
           - unique
@@ -12,8 +13,8 @@ sources:
 
       - name: address
         data_tests:
-          - unique
-          - not_null
+              - unique
+              - not_null
      
       - name: stateprovince
         data_tests:
@@ -75,6 +76,7 @@ sources:
           - unique
           - not_null
 
+      - name: seed
 
 
 

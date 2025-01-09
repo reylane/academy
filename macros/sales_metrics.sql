@@ -1,3 +1,5 @@
+
+
 {% macro gross_income(column_1, column_2) %}
     ({{ column_1 }} * {{ column_2 }})::numeric(16, 4)
 {% endmacro %}

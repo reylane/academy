@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: seed_status_name
+
+    columns:
+      - name: STATUSID
+      - name: NAME_STATUS

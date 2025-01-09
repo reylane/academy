@@ -6,8 +6,8 @@ with
     , rename_table as (
         select 
             
-            cast(BUSINESSENTITYID as int) as pk_personid
-            , FIRSTNAME || ' ' || MIDDLENAME || ' ' || LASTNAME as person_fullname
+           cast(BUSINESSENTITYID as int) as PK_PERSONID
+            , FIRSTNAME || ' ' || MIDDLENAME || ' ' || LASTNAME as PERSON_FULL_NAME
             --PERSONTYPE
             --NAMESTYLE
             --TITLE

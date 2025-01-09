@@ -4,6 +4,6 @@ models:
   - name: stg_nw__person
     
     columns:
-      - name: pk_personid
+      - name: PK_PERSONID
         
-      - name: person_fullname
+      - name: PERSON_FULL_NAME

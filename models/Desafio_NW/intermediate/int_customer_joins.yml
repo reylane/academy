@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: int_customer_joins
+    
+    columns:
+      - name: PK_CUSTOMERID
+
+      - name: PK_PERSONID
+
+      - name: FK_STOREID
+
+      - name: FK_TERRITORYID
+
+      - name: PERSON_FULL_NAME

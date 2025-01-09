@@ -1,0 +1,35 @@
+version: 2
+
+models:
+  - name: int_sales_metrics
+  
+    columns:
+      - name: FK_SALESORDERID      
+      - name: PK_ORDERDETAILID     
+      - name: FK_PRODUCTID     
+      - name: FK_SPECIALOFFERID
+      - name: QUANTITY
+      - name: UNIT_PRICE
+      - name: UNITPRICEDISCOUNT
+      - name: PK_SALESORDERID
+      - name: STATUSID
+      - name: PK_CUSTOMERID
+      - name: FK_SALESPERSONID
+      - name: FK_TERRITORYID 
+      - name: FK_BILLTOADDRESSID
+      - name: FK_ADDRESSID
+      - name: FK_SHIPMETHODID
+      - name: FK_CREDITCARDID
+      - name: FK_CURRENCYRATEID
+      - name: ORDERDATE
+      - name: DUEDATE
+      - name: SHIPDATE  
+      - name: PRORATED_SUBTOTAL
+      - name: PRORATED_TAXA
+      - name: PRORATED_FREIGHT
+      - name: PRORATED_TOTAL_SALES
+      - name: GROSS_VALUE
+      - name: NET_VALUE
+      - name: DISCOUNT_VALUE
+      - name: NAMES_SALESREASON
+      - name: SK_SALESREASON

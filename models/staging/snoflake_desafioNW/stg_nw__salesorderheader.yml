@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: stg_nw__salesorderheader
+    
+    columns:
+      - name: PK_SALESORDERID        
+      - name: FK_STATUSID
+      - name: FK_CUSTOMERID
+      - name: FK_SALESPERSONID
+      - name: FK_TERRITORYID
+      - name: FK_BILLTOADDRESSID
+      - name: FK_SHIPTOADDRESSID
+      - name: FK_SHIPMETHODID
+      - name: FK_CREDITCARDID
+      - name: FK_CURRENCYRATEID
+      - name: ORDERDATE
+      - name: DUEDATE
+      - name: SHIPDATE
+      - name: SUBTOTAL
+      - name: TAXA
+      - name: FREIGHT
+      - name: TOTAL_SALES

@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: stg_nw__product
+    
+    columns:
+      - name: PK_PRODUCTID        
+      - name: FK_PRODUCTSUBCATEGORYID
+      - name: SELLSTARTDATE
+      - name: SELLENDDATE
+      - name: PRODUCT_NAME
+      - name: PRODUCT_COLOR
+      - name: SAFETYSTOCK
+      - name: REORDERPOINT
+      - name: STANDARDCOST
+      - name: LISTPRICE
+      - name: PRODUCT_SIZE
+      - name: PRODUCT_WEIGHT

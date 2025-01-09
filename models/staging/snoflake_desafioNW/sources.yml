@@ -24,4 +24,62 @@ sources:
         data_tests:
           - unique
           - not_null
+      
+      - name: CREDITCARD
+        data_tests:
+          - unique
+          - not_null
+
+
+      - name: CUSTOMER
+        data_tests:
+          - unique
+          - not_null
+
+      
+      - name: PRODUCT
+        data_tests:
+          - unique
+          - not_null
+         
+      - name: PRODUCTCATEGORY
+        data_tests:
+          - unique
+          - not_null
+      
+      - name: PRODUCTSUBCATEGORY
+        data_tests:
+          - unique
+          - not_null
+      
           
+      - name: SALESORDERDETAIL
+        data_tests:
+          - unique
+          - not_null
+
+                
+      - name: SALESORDERHEADER
+        data_tests:
+          - unique
+          - not_null
+                    
+      - name: SALESORDERHEADERSALESREASON
+        data_tests:
+          - unique
+          - not_null
+
+      
+      - name: SALESREASON
+        data_tests:
+          - unique
+          - not_null
+
+
+
+
+
+
+
+      
+      

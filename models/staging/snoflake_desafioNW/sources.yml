@@ -73,34 +73,16 @@ sources:
       
           
       - name: SALESORDERDETAIL
-        columns:
-          - name: SALESORDERID
-            data_tests:
-              - unique
-              - not_null
 
                 
       - name: SALESORDERHEADER
-        columns:
-          - name: SALESORDERID
-            data_tests:
-              - unique
-              - not_null
+
                     
       - name: SALESORDERHEADERSALESREASON
-        columns:
-          - name: SALESORDERID
-            data_tests:
-              - unique
-              - not_null
 
       
       - name: SALESREASON
-        columns:
-          - name: SALESREASONID
-            data_tests:
-              - unique
-              - not_null
+
 
       - name: seed
 

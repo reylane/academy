@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: stg_nw__address
+    
+    columns:
+      - name: pk_addressid
+        
+      - name: city
+
+      - name: fk_stateprovincedid

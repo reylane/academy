@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: stg_nw__creditcard
+    
+    columns:
+      - name: PK_CREDITCARDID
+        
+      - name: CARDTYPE

@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: stg_nw__salesreason
+    
+    columns:
+      - name: PK_SALESREASONID        
+      - name: NAME_SALESREASON
+      - name: TYPE_SALESREASON
+    

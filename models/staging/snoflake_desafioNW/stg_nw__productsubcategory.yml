@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: stg_nw__productsubcategory
+    
+    columns:
+      - name: PK_PRODUCTSUBCATEGORYID        
+      - name: FK_PRODUCTCATEGORYID
+      - name: NAME_SUBCATEGORY_PRODUCT
+     

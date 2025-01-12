@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: dim_salesreason
+    
+    columns:
+      - name: SK_SALESREASON
+        data_tests:
+          
+          - unique
+          - not_null
+
+      - name: PK_SALESREASONID
+      
+      - name: NAME_SALESREASON
+      

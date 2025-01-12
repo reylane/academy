@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: stg_nw__salesorderheadersalesreason
+    
+    columns:
+      - name: PK_SALESORDERID        
+      - name: FK_SALESREASONID
+      

@@ -1,0 +1,95 @@
+version: 2
+
+sources:
+  - name: snowflake_desafioNW
+    database: FEA24_9
+    schema: RAW_ADVENTURE_WORKS
+    tables:
+
+      - name: person      
+        columns:
+          - name: BUSINESSENTITYID
+            data_tests:
+              - unique
+              - not_null
+
+      - name: address
+        columns:
+          - name: ADDRESSID
+            data_tests:
+              - unique
+              - not_null
+     
+      - name: stateprovince
+        columns:
+          - name: STATEPROVINCEID
+            data_tests:
+              - unique
+              - not_null
+
+      - name: countryregion
+        columns:
+          - name: COUNTRYREGIONCODE
+            data_tests:
+              - unique
+              - not_null
+      
+      - name: CREDITCARD
+        columns:
+          - name: CREDITCARDID
+            data_tests:
+              - unique
+              - not_null
+
+
+      - name: CUSTOMER
+        columns:
+          - name: CUSTOMERID
+            data_tests:
+              - unique
+              - not_null
+
+      
+      - name: PRODUCT
+        columns:
+          - name: PRODUCTID
+            data_tests:
+              - unique
+              - not_null
+         
+      - name: PRODUCTCATEGORY
+        columns:
+          - name: PRODUCTCATEGORYID
+            data_tests:
+              - unique
+              - not_null
+      
+      - name: PRODUCTSUBCATEGORY
+        columns:
+          - name: PRODUCTSUBCATEGORYID
+            data_tests:
+              - unique
+              - not_null
+      
+          
+      - name: SALESORDERDETAIL
+
+                
+      - name: SALESORDERHEADER
+
+                    
+      - name: SALESORDERHEADERSALESREASON
+
+      
+      - name: SALESREASON
+
+
+      - name: seed
+
+
+
+
+
+
+      
+      

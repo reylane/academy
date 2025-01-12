@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: stg_nw__stateprovince
+
+    columns:
+      - name: PK_STATEPROVINCEID
+
+      - name: FK_COUNTRYREGIONCODE
+
+      - name: FK_TERRITORYID
+
+      - name: STATE_NAME

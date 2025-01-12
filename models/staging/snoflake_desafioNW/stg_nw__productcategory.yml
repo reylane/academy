@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: stg_nw__productcategory
+    
+    columns:
+      - name: PK_PRODUCTCATEGORYID        
+      - name: NAME_CATEGORY_PRODUCT
+   

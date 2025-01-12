@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: stg_nw__person
+    
+    columns:
+      - name: PK_PERSONID
+        
+      - name: PERSON_FULL_NAME

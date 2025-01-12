@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: dim_product
+    
+    columns:
+      - name: PK_PRODUCTID       
+      - name: PRODUCT_NAME       
+      - name: PRODUCT_COLOR       
+      - name: PRODUCT_SIZE       
+      - name: PRODUCT_WEIGHT        
+      - name: NAME_SUBCATEGORY_PRODUCT       
+      - name: NAME_CATEGORY_PRODUCT
+        

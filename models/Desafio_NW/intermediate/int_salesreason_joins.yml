@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: int_salesreason_joins
+    
+    columns:
+      - name: SK_SALESREASON
+       
+      - name: PK_SALESORDERID
+      
+      - name: NAME_SALESREASON
+     
+      - name: NAMES_SALESREASON

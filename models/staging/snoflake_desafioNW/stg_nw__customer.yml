@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: stg_nw__customer
+    
+    columns:
+      - name: PK_CUSTOMERID
+        
+      - name: FK_PERSONID
+
+      - name: FK_STOREID
+
+      - name: FK_TERRITORYID

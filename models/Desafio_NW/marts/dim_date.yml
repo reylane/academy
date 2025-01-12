@@ -1,0 +1,44 @@
+version: 2
+
+models:
+  - name: dim_date
+
+    columns:
+      - name: DATE_DAY       
+      - name: PRIOR_DATE_DAY
+      - name: NEXT_DATE_DAY       
+      - name: PRIOR_YEAR_DATE_DAY       
+      - name: PRIOR_YEAR_OVER_YEAR_DATE_DAY        
+      - name: DAY_OF_WEEK       
+      - name: DAY_OF_WEEK_ISO        
+      - name: DAY_OF_WEEK_NAME       
+      - name: DAY_OF_WEEK_NAME_SHORT        
+      - name: DAY_OF_MONTH       
+      - name: DAY_OF_YEAR       
+      - name: WEEK_START_DATE        
+      - name: WEEK_END_DATE        
+      - name: PRIOR_YEAR_WEEK_START_DATE       
+      - name: PRIOR_YEAR_WEEK_END_DATE        
+      - name: WEEK_OF_YEAR        
+      - name: ISO_WEEK_START_DATE       
+      - name: ISO_WEEK_END_DATE        
+      - name: PRIOR_YEAR_ISO_WEEK_START_DATE       
+      - name: PRIOR_YEAR_ISO_WEEK_END_DATE       
+      - name: ISO_WEEK_OF_YEAR       
+      - name: PRIOR_YEAR_WEEK_OF_YEAR       
+      - name: PRIOR_YEAR_ISO_WEEK_OF_YEAR        
+      - name: MONTH_OF_YEAR        
+      - name: MONTH_NAME       
+      - name: MONTH_NAME_SHORT       
+      - name: MONTH_START_DATE       
+      - name: MONTH_END_DATE       
+      - name: PRIOR_YEAR_MONTH_START_DATE      
+      - name: PRIOR_YEAR_MONTH_END_DATE        
+      - name: QUARTER_OF_YEAR        
+      - name: QUARTER_START_DATE       
+      - name: QUARTER_END_DATE        
+      - name: YEAR_NUMBER      
+      - name: YEAR_START_DATE      
+      - name: YEAR_END_DATE       
+      - name: MONTH_YEAR 
+ 

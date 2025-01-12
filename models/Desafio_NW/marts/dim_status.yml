@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: dim_STATUS
+    
+    columns:
+      - name: STATUSID
+       
+      - name: NAME_STATUS
+        
